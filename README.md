@@ -6,7 +6,7 @@ No importa el sistema operativo que usas, siempre y cuando permita la instalaci�
 ## Que tienes una versión de R actualizada. 
 Vamos a trabajar con la versión 3.6.0 Para verificar la versión que tienes instalada puedes correr en la consola:
 
-R.Version()$version.string
+`R.Version()$version.string`
 
 La respuesta debería ser por lo menos (puede ser una versión más reciente):
 
@@ -24,7 +24,7 @@ https://www.rstudio.com/products/rstudio/download/#download
 ## Que tienes los paquetes necesarios
 Para que estés segur@ de tener todos los paquetes que vamos a utilizar lo mejor es que los instales de antemano. Con las siguientes instrucciones los puedes instalar todos:
 
-    install.packages(c("hflights", "dplyr", "readr")) 
+    `install.packages(c("hflights", "dplyr", "readr"))`
 
 ## Organiza
 Organiza Rladies San José, Costa Rica y el código fue proporcionado por Ing. Julio Viales de Western Union.
